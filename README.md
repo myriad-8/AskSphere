@@ -120,7 +120,7 @@ docs/               detailed training docs
 pip install -r requirements-dev.txt && python -m pytest -q
 docker build -t asksphere . && docker run -p 7860:7860 -v "$PWD/checkpoints:/app/checkpoints" asksphere
 ```
+## Acknowledgements
 
-## License
-
-MIT. See [LICENSE](LICENSE). Original work © Harsha081459; modifications © Sahithi (myriad-8).
+Built on the open-source project [Question-Answer-System-with-a-Custom-Transformer-Encoder-and-Generative-Decoder](https://github.com/Harsha081459/Question-Answer-System-with-a-Custom-Transformer-Encoder-and-Generative-Decoder) by Harsha081459.
+Restructured, fixed and tested by Sahithi (myriad-8).
